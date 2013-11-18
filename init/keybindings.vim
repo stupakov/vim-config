@@ -132,3 +132,7 @@ nmap du :diffupdate<CR>
 
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
+
+" Move up/down wrapped lines 
+nmap <Up> gk
+nmap <Down> gj

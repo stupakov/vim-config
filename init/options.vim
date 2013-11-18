@@ -16,7 +16,11 @@ set autoindent
 set smarttab                    " Use shiftwidth to tab at line beginning
 set shiftwidth=2                " Width of autoindent
 set number                      " Line numbers
-set nowrap                      " No wrapping
+set wrap                        " No wrapping
+set linebreak                   " Only break on non-word characters
+set textwidth=0                 " Don't autoinsert linebreaks in newly entered text
+set wrapmargin=0                " Same.
+
 set backspace=indent,eol,start " Let backspace work over anything.
 set wildignore+=tags               " Ignore tags when globbing.
 set wildignore+=tmp/**             " ...Also tmp files.
